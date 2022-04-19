@@ -45,7 +45,7 @@ class TextStats:
         temp = text.splitlines()
         for line in temp:
             self.number_of_lines += 1
-            for _ in line.split():
+            for word in line.split():
                 self.number_of_words += 1
             for letter in line:
                 if letter.isalpha():
