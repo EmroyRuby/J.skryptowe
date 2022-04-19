@@ -8,6 +8,9 @@ class FileViewer(ABC):
     def __init__(self, path):
         self.path = path
 
+    def pseudomethrod:
+        pass
+
     @abstractmethod
     def view(self):
         pass
