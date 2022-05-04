@@ -48,7 +48,7 @@ class TextStats:
             for _ in line.split():
                 self.number_of_words += 1
             for letter in line:
-                if letter.isalpha():
+                if not letter.isalpha():
                     self.number_of_nonalpha += 1
 
 
@@ -99,7 +99,7 @@ def main():
     logging.basicConfig(level=level, format=fmt)
     creator = ViewerCreator()
     text = creator.create_viewer("C:\\Users\\PK\\Downloads\\da1.txt")
-    image = creator.create_viewer("C:\\Users\\PK\\Pictures\\Alita.jpg")
+    image = creator.create_viewer("C:\\Users\\PK\\Pictures\\images.jpg")
     # wrong = creator.create_viewer("C:\\Users\\PK\\Documents\\1.docx")
     image.view()
     text.view()
