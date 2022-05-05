@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650560580418</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="__main__ == main">
+      <created>1651697937265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651697937265</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -256,6 +263,7 @@
     <MESSAGE value="change word to _" />
     <MESSAGE value="update to pep8" />
     <MESSAGE value="alpha to non alpha" />
-    <option name="LAST_COMMIT_MESSAGE" value="alpha to non alpha" />
+    <MESSAGE value="__main__ == main" />
+    <option name="LAST_COMMIT_MESSAGE" value="__main__ == main" />
   </component>
 </project>
